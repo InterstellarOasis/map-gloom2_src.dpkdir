@@ -1483,11 +1483,11 @@ textures/gloom2/es_proto_lightred_64_s_10k
 
 textures/gloom2/es_scratchglass_01_s
 {
-	qer_editorimage textures/gloom2/es_scratchglass.jpg
+	qer_editorimage textures/gloom2/es_scratchglass
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/gloom2/es_scratchglass.jpg
+		map textures/gloom2/es_scratchglass
 		blendfunc add
 		rgbGen const ( 0.1 0.1 0.1 )
 	}
