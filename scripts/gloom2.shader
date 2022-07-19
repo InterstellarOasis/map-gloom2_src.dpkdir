@@ -1802,7 +1802,8 @@ textures/gloom2/es_tin_s
 		map textures/gloom2/es_tin
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		alphaGen lightingSpecular
+		// Unsupported by the Dæmon engine
+		// alphaGen lightingSpecular
 	}
 }
 
