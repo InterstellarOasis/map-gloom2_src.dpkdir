@@ -1,0 +1,8 @@
+.paktrace/
+build/
+maps/*.bak
+maps/*.bsp
+maps/*.prt
+maps/*.srf
+minimaps/
+scripts/q3map2_*.shader
