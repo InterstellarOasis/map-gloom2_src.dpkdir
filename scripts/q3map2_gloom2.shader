@@ -2449,7 +2449,7 @@ gloom2/0E8A140565DCFE3021124CBBD38BD974
 	}
 
 	{
-		map textures/gloom2/pstl-mtl_L1_grill.tga
+		map textures/gloom2/pstl-mtl_l1_grill.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -2471,7 +2471,7 @@ gloom2/43EC496C177844DFA9811E95C7FB7BB4
 	}
 
 	{
-		map textures/gloom2/pstl-mtl_L1_grill.tga
+		map textures/gloom2/pstl-mtl_l1_grill.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -2493,7 +2493,7 @@ gloom2/45D60A2E122FE450E52BB055AEBBB6E7
 	}
 
 	{
-		map textures/gloom2/pstl-mtl_L1_grill.tga
+		map textures/gloom2/pstl-mtl_l1_grill.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
