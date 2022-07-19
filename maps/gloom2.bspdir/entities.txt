@@ -200,14 +200,14 @@
 }
 {
 "spawnflags" "1"
-"noise" "sound/gloom2/drone2.wav"
+"noise" "sound/gloom2/drone2"
 "origin" "1856 -3456 -164"
 "classname" "target_speaker"
 }
 {
 "classname" "target_speaker"
 "origin" "1544 -136 -164"
-"noise" "sound/gloom2/drone2.wav"
+"noise" "sound/gloom2/drone2"
 "spawnflags" "1"
 }
 {
@@ -227,7 +227,7 @@
 }
 {
 "spawnflags" "1"
-"noise" "sound/gloom2/drone1.wav"
+"noise" "sound/gloom2/drone1"
 "origin" "320 -832 -212"
 "classname" "target_speaker"
 }
@@ -616,7 +616,7 @@
 {
 "random" "2"
 "wait" "3"
-"noise" "sound/gloom2/electricspark.wav"
+"noise" "sound/gloom2/electricspark"
 "origin" "2240 -224 -16"
 "classname" "target_speaker"
 }
@@ -716,11 +716,11 @@
 {
 "classname" "target_speaker"
 "origin" "-640 -3488 -296"
-"noise" "sound/gloom2/water_rush.wav"
+"noise" "sound/gloom2/water_rush"
 "spawnflags" "1"
 }
 {
-"noise" "sound/gloom2/water_drip_fast.wav"
+"noise" "sound/gloom2/water_drip_fast"
 "origin" "-672 -3488 -296"
 "classname" "target_speaker"
 "spawnflags" "1"
