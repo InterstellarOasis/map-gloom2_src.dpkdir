@@ -716,11 +716,11 @@
 {
 "classname" "target_speaker"
 "origin" "-640 -3488 -296"
-"noise" "sound\gloom2\water_rush.wav"
+"noise" "sound/gloom2/water_rush.wav"
 "spawnflags" "1"
 }
 {
-"noise" "sound\gloom2\water_drip_fast.wav"
+"noise" "sound/gloom2/water_drip_fast.wav"
 "origin" "-672 -3488 -296"
 "classname" "target_speaker"
 "spawnflags" "1"
