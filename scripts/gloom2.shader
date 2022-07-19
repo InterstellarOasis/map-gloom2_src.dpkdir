@@ -10,6 +10,87 @@ textures/gloom2/mist_s
 	}
 }
 
+textures/gloom2/ripple_s
+{
+	qer_editorimage textures/gloom2/ripple.tga
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm noimpact
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	cull disable
+	{
+		clampmap textures/gloom2/ripple.tga
+		blendFunc GL_ONE GL_ONE
+		rgbGen vertex
+//		tcmod rotate 250
+		tcMod stretch sawtooth 1 1 .5 .5
+		rgbGen wave sin 0 .75 .5 .5
+	}	
+        {
+		clampmap textures/gloom2/ripple.tga
+		blendFunc GL_ONE GL_ONE
+		rgbGen vertex
+//                tcmod rotate -230
+		tcMod stretch sawtooth 1 1 0 .5
+		rgbGen wave sin 0 .75 0 .5
+	}	
+	{
+		clampmap textures/gloom2/ripple.tga
+		blendFunc GL_ONE GL_ONE
+		rgbGen vertex
+//		tcmod rotate -250
+		tcMod stretch sawtooth 1 1 .25 .5
+		rgbGen wave sin 0 .75 .25 .5
+	}	
+        {
+		clampmap textures/gloom2/ripple.tga
+		blendFunc GL_ONE GL_ONE
+		rgbGen vertex
+//                tcmod rotate 230
+		tcMod stretch sawtooth 1 1 .75 .5
+		rgbGen wave sin 0 .75 .75 .5
+	}	
+}
+
+textures/gloom2/splash_s
+{
+	entityMergable
+	cull none
+	{
+		map textures/gloom2/es_splash.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen		vertex
+		alphaGen	vertex
+	}
+}
+
+textures/gloom2/water_s
+{
+	entityMergable
+	cull none
+	{
+		map textures/gloom2/es_water.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen		vertex
+		alphaGen	vertex
+	}
+}
+
+textures/gloom2/spark_s
+{
+	entityMergable
+	cull none
+	{
+		map textures/gloom2/spark.tga
+		blendFunc add
+		rgbGen		const ( 1 1 1 )
+		alphaGen	vertex
+	}
+}
+
 textures/gloom2/e6bsegrtflr256_s
 {
 	qer_editorimage textures/gloom2/e6bsegrtflr256.tga
@@ -320,6 +401,27 @@ textures/gloom2/blackwall_noclip_s
 	}
 }
 
+textures/gloom2/es_cubelight_32_white_s_5k
+{
+	qer_editorimage textures/gloom2/es_cubelight_32_white.tga
+	q3map_lightimage textures/gloom2/es_cubelight_32_white.blend.tga
+	surfaceparm nomarks
+	q3map_surfacelight 5000
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/gloom2/es_cubelight_32_white.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/gloom2/es_cubelight_32_white.blend.tga
+		blendFunc GL_ONE GL_ONE
+	}
+}
+
 textures/gloom2/es_cubelight_32_orange_s_5k
 {
 	qer_editorimage textures/gloom2/es_cubelight_32_orange.tga
@@ -404,10 +506,31 @@ textures/gloom2/es_cubelight_32_orange_s_20k
 	}
 }
 
+textures/gloom2/es_cubelight_32_red_s_5k
+{
+	qer_editorimage textures/gloom2/es_cubelight_32_red.tga
+	q3map_lightimage textures/gloom2/red.tga
+	surfaceparm nomarks
+	q3map_surfacelight 5000
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/gloom2/es_cubelight_32_red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/gloom2/es_cubelight_32_red.blend.tga
+		blendFunc GL_ONE GL_ONE
+	}
+}
+
 textures/gloom2/es_cubelight_32_red_s_10k
 {
 	qer_editorimage textures/gloom2/es_cubelight_32_red.tga
-	q3map_lightimage textures/gloom2/es_cubelight_32_red.blend.tga
+	q3map_lightimage textures/gloom2/red.tga
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	{
@@ -428,7 +551,7 @@ textures/gloom2/es_cubelight_32_red_s_10k
 textures/gloom2/es_cubelight_32_red_s_15k
 {
 	qer_editorimage textures/gloom2/es_cubelight_32_red.tga
-	q3map_lightimage textures/gloom2/es_cubelight_32_red.blend.tga
+	q3map_lightimage textures/gloom2/red.tga
 	surfaceparm nomarks
 	q3map_surfacelight 15000
 	{
@@ -449,7 +572,7 @@ textures/gloom2/es_cubelight_32_red_s_15k
 textures/gloom2/es_cubelight_32_red_s_20k
 {
 	qer_editorimage textures/gloom2/es_cubelight_32_red.tga
-	q3map_lightimage textures/gloom2/es_cubelight_32_red.blend.tga
+	q3map_lightimage textures/gloom2/red.tga
 	surfaceparm nomarks
 	q3map_surfacelight 20000
 	{
@@ -610,6 +733,27 @@ textures/gloom2/es_cubelight_32_blue_s_20k
 	}
 	{
 		map textures/gloom2/es_cubelight_32_blue.blend.tga
+		blendFunc GL_ONE GL_ONE
+	}
+}
+
+textures/gloom2/light5_s_3500
+{
+	qer_editorimage textures/gloom2/xlight5.tga
+	q3map_lightimage textures/gloom2/xlight5.blend.tga
+	surfaceparm nomarks
+	q3map_surfacelight 3500
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/gloom2/xlight5.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/gloom2/xlight5.blend.tga
 		blendFunc GL_ONE GL_ONE
 	}
 }
@@ -1198,6 +1342,44 @@ textures/gloom2/e6tinylight_s_2500
 	}
 }
 
+textures/gloom2/e6tinylight_s_2000
+{
+	qer_editorimage textures/gloom2/e6tinylight.tga
+	surfaceparm nomarks
+	q3map_surfacelight 2500
+	{
+		map textures/gloom2/e6tinylight.tga
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+		map textures/gloom2/e6tinylight.blend.tga
+		blendfunc add
+	}
+}
+
+textures/gloom2/e6tinylight_s_1500
+{
+	qer_editorimage textures/gloom2/e6tinylight.tga
+	surfaceparm nomarks
+	q3map_surfacelight 2500
+	{
+		map textures/gloom2/e6tinylight.tga
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+		map textures/gloom2/e6tinylight.blend.tga
+		blendfunc add
+	}
+}
+
 textures/gloom2/e6tinylight_s_1000
 {
 	qer_editorimage textures/gloom2/e6tinylight.tga
@@ -1447,39 +1629,66 @@ textures/gloom2/white_bulb_s
 	}
 }
 
-textures/gloom2/slime_s
+textures/gloom2/reservoir_water_s
+{
+	qer_editorimage textures/gloom2/256_gate_water02.tga
+	qer_trans .5
+	q3map_lightimage textures/gloom2/256_gate_water02.tga
+//	q3map_surfacelight 50
+	q3map_globaltexture
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm water
+
+	cull disable
+	deformVertexes wave 64 sin .25 .25 0 .5	
+	{ 
+		map textures/gloom2/256_gate_water02.tga
+		blendFunc GL_dst_color GL_one
+		rgbgen identity
+		tcmod scale .5 .5
+		tcmod scroll .025 .01
+	}
+	{ 
+		map textures/gloom2/256_gate_water02.tga
+		blendFunc GL_dst_color GL_one
+		tcmod scale -.5 -.5
+		tcmod scroll .025 .025
+	}
 	{
-		qer_editorimage textures/gloom2/slime7.tga
-		q3map_lightimage textures/gloom2/slime7.tga
-		q3map_globaltexture
+		map $lightmap
+		blendFunc GL_dst_color GL_zero
+		rgbgen identity		
+	}
+}
 
-		surfaceparm noimpact
-		surfaceparm slime
-		surfaceparm nolightmap
-		surfaceparm trans		
-
-		q3map_surfacelight 100
-		tessSize 32
-//		cull disable
-
-//		deformVertexes wave 100 sin 0 1 .5 .5
-
-		{
-			map textures/gloom2/slime7.tga
-//			rgbGen const ( 0.75 0.75 0.75 )			
-//			blendfunc add
-			blendfunc filter
-			tcMod turb .2 .1 1 .05
-			tcMod scale .5 .5
-			tcMod scroll .02 .01
-		}
-		{
-			map textures/gloom2/slime7c.tga
-			rgbGen const ( 0.5 0.5 0.5 )			
-			blendfunc add
-			tcMod turb .3 .2 1 .05
-			tcMod scroll .01 .01
-		}
+textures/gloom2/reservoir_side_s
+{
+	qer_editorimage textures/gloom2/dark-mtl_l1_2a.tga
+	{
+		map textures/gloom2/dark-mtl_l1_2a.tga
+//		rgbGen const ( .75 .75 .75 )
+	}
+	{
+		map textures/gloom2/256_gate_water02_reflect.tga
+		rgbGen const ( .3 .3 .3 )
+		blendFunc GL_dst_color GL_one
+		tcmod scale .25 .25
+		tcmod scroll .025 -.01
+	}
+	{ 
+		map textures/gloom2/256_gate_water02_reflect.tga
+		blendFunc GL_dst_color GL_one
+		rgbGen const ( .3 .3 .3 )
+		tcmod scale .25 .25
+		tcmod scroll -.025 .01
+	}
+	{
+		map $lightmap
+		blendFunc GL_dst_color GL_zero
+		rgbgen identity		
+	}
 }
 
 models/mapobjects/gloom2/clothflap_s
