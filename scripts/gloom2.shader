@@ -28,15 +28,15 @@ textures/gloom2/ripple_s
 //		tcmod rotate 250
 		tcMod stretch sawtooth 1 1 .5 .5
 		rgbGen wave sin 0 .75 .5 .5
-	}	
-        {
+	}
+	{
 		clampmap textures/gloom2/ripple
 		blendFunc GL_ONE GL_ONE
 		rgbGen vertex
-//                tcmod rotate -230
+//		tcmod rotate -230
 		tcMod stretch sawtooth 1 1 0 .5
 		rgbGen wave sin 0 .75 0 .5
-	}	
+	}
 	{
 		clampmap textures/gloom2/ripple
 		blendFunc GL_ONE GL_ONE
@@ -44,15 +44,15 @@ textures/gloom2/ripple_s
 //		tcmod rotate -250
 		tcMod stretch sawtooth 1 1 .25 .5
 		rgbGen wave sin 0 .75 .25 .5
-	}	
-        {
+	}
+	{
 		clampmap textures/gloom2/ripple
 		blendFunc GL_ONE GL_ONE
 		rgbGen vertex
-//                tcmod rotate 230
+//		tcmod rotate 230
 		tcMod stretch sawtooth 1 1 .75 .5
 		rgbGen wave sin 0 .75 .75 .5
-	}	
+	}
 }
 
 textures/gloom2/splash_s
@@ -106,9 +106,9 @@ textures/gloom2/e6bsegrtflr256_s
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -212,9 +212,9 @@ textures/gloom2/es_shelf_horiz_trim_s
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -230,9 +230,9 @@ textures/gloom2/es_shelf_top_s
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -278,9 +278,9 @@ textures/gloom2/rust_1_noclip_s
 	qer_editorimage textures/gloom2/rust_1
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/rust_1
@@ -294,9 +294,9 @@ textures/gloom2/concrete-1_noclip_s
 	qer_editorimage textures/gloom2/concrete-1
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/concrete-1
@@ -310,9 +310,9 @@ textures/gloom2/wal07r2_a_noclip_s
 	qer_editorimage textures/gloom2/wal07r2_a
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/wal07r2_a
@@ -326,9 +326,9 @@ textures/gloom2/pstl-mtl_l1_3a_noclip_s
 	qer_editorimage textures/gloom2/pstl-mtl_l1_3a
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/pstl-mtl_l1_3a
@@ -342,9 +342,9 @@ textures/gloom2/e8_base1c_noclip_s
 	qer_editorimage textures/gloom2/e8_base1c
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e8_base1c
@@ -358,9 +358,9 @@ textures/gloom2/e8metal03b_noclip_s
 	qer_editorimage textures/gloom2/e8metal03b
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e8metal03b
@@ -374,9 +374,9 @@ textures/gloom2/e6brnmetal_noclip_s
 	qer_editorimage textures/gloom2/e6brnmetal
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6brnmetal
@@ -390,9 +390,9 @@ textures/gloom2/blackwall_noclip_s
 	qer_editorimage textures/gloom2/blackwall
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/blackwall
@@ -1218,9 +1218,9 @@ textures/gloom2/e6horzlight_s_2500
 		map textures/gloom2/e6horzlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6horzlight.blend
@@ -1237,9 +1237,9 @@ textures/gloom2/e6horzlight_s_5000
 		map textures/gloom2/e6horzlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6horzlight.blend
@@ -1256,9 +1256,9 @@ textures/gloom2/e6horzlight_s_10k
 		map textures/gloom2/e6horzlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6horzlight.blend
@@ -1275,9 +1275,9 @@ textures/gloom2/e6trim_light_s_2000
 		map textures/gloom2/e6trim_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6trim_light.blend
@@ -1294,9 +1294,9 @@ textures/gloom2/e6trim_light_s_2500
 		map textures/gloom2/e6trim_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6trim_light.blend
@@ -1313,9 +1313,9 @@ textures/gloom2/e6tinylight_s_5k
 		map textures/gloom2/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6tinylight.blend
@@ -1332,9 +1332,9 @@ textures/gloom2/e6tinylight_s_2500
 		map textures/gloom2/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6tinylight.blend
@@ -1351,9 +1351,9 @@ textures/gloom2/e6tinylight_s_2000
 		map textures/gloom2/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6tinylight.blend
@@ -1370,9 +1370,9 @@ textures/gloom2/e6tinylight_s_1500
 		map textures/gloom2/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6tinylight.blend
@@ -1389,9 +1389,9 @@ textures/gloom2/e6tinylight_s_1000
 		map textures/gloom2/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6tinylight.blend
@@ -1408,9 +1408,9 @@ textures/gloom2/e6tinylight_s_500
 		map textures/gloom2/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6tinylight.blend
@@ -1432,11 +1432,11 @@ textures/gloom2/es_proto_lightred_64_s_300
 		blendFunc filter
 		rgbGen identity
 	}
-        {
+	{
 		map textures/gloom2/es_proto_lightred_64
 		blendFunc add
 	}
-	
+
 }
 
 textures/gloom2/es_proto_lightred_64_s_5k
@@ -1453,11 +1453,11 @@ textures/gloom2/es_proto_lightred_64_s_5k
 		blendFunc filter
 		rgbGen identity
 	}
-        {
+	{
 		map textures/gloom2/es_proto_lightred_64
 		blendFunc add
 	}
-	
+
 }
 
 textures/gloom2/es_proto_lightred_64_s_10k
@@ -1474,11 +1474,11 @@ textures/gloom2/es_proto_lightred_64_s_10k
 		blendFunc filter
 		rgbGen identity
 	}
-        {
+	{
 		map textures/gloom2/es_proto_lightred_64
 		blendFunc add
 	}
-	
+
 }
 
 textures/gloom2/es_scratchglass_01_s
@@ -1492,10 +1492,10 @@ textures/gloom2/es_scratchglass_01_s
 		rgbGen const ( 0.1 0.1 0.1 )
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -1521,10 +1521,10 @@ textures/gloom2/es_dirtyglass_02_s
 //		rgbGen const ( 0.5 0.5 0.5 )
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -1550,10 +1550,10 @@ textures/gloom2/es_dirtyglass_03_s
 //		rgbGen const ( 0.15 0.15 0.15 )
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -1579,10 +1579,10 @@ textures/gloom2/es_dirtyglass_04_s
 //		rgbGen const ( 0.15 0.15 0.15 )
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -1593,11 +1593,11 @@ textures/gloom2/es_dirtyglass_05_s
 	surfaceparm trans
 //	cull none
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc add
 //gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/es_dirtyglass
@@ -1642,15 +1642,15 @@ textures/gloom2/reservoir_water_s
 	surfaceparm water
 
 	cull disable
-	deformVertexes wave 64 sin .25 .25 0 .5	
-	{ 
+	deformVertexes wave 64 sin .25 .25 0 .5
+	{
 		map textures/gloom2/256_gate_water02
 		blendFunc GL_dst_color GL_one
 		rgbgen identity
 		tcmod scale .5 .5
 		tcmod scroll .025 .01
 	}
-	{ 
+	{
 		map textures/gloom2/256_gate_water02
 		blendFunc GL_dst_color GL_one
 		tcmod scale -.5 -.5
@@ -1659,7 +1659,7 @@ textures/gloom2/reservoir_water_s
 	{
 		map $lightmap
 		blendFunc GL_dst_color GL_zero
-		rgbgen identity		
+		rgbgen identity
 	}
 }
 
@@ -1677,7 +1677,7 @@ textures/gloom2/reservoir_side_s
 		tcmod scale .25 .25
 		tcmod scroll .025 -.01
 	}
-	{ 
+	{
 		map textures/gloom2/256_gate_water02_reflect
 		blendFunc GL_dst_color GL_one
 		rgbGen const ( .3 .3 .3 )
@@ -1687,7 +1687,7 @@ textures/gloom2/reservoir_side_s
 	{
 		map $lightmap
 		blendFunc GL_dst_color GL_zero
-		rgbgen identity		
+		rgbgen identity
 	}
 }
 
@@ -1703,9 +1703,9 @@ models/mapobjects/gloom2/clothflap_s
 		//make fancy rite hurr
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1715,9 +1715,9 @@ textures/gloom2/brown_hose_s
 	qer_editorimage textures/gloom2/flat_64
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/flat_64
@@ -1731,9 +1731,9 @@ textures/gloom2/blue_hose_s
 	qer_editorimage textures/gloom2/e8base_blue
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e8base_blue
@@ -1747,9 +1747,9 @@ textures/gloom2/red_hose_s
 	qer_editorimage textures/gloom2/e8base_red
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e8base_red
@@ -1763,9 +1763,9 @@ textures/gloom2/green_hose_s
 	qer_editorimage textures/gloom2/copper-3
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/copper-3
@@ -1779,9 +1779,9 @@ textures/gloom2/grey_hose_s
 	qer_editorimage textures/gloom2/blackwall
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/blackwall
@@ -1794,9 +1794,9 @@ textures/gloom2/es_tin_s
 {
 	qer_editorimage textures/gloom2/es_tin
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/es_tin
@@ -1869,9 +1869,9 @@ textures/gloom2/e6tinylight_s_1000_style_4
 		map textures/gloom2/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6tinylight.blend
@@ -1890,9 +1890,9 @@ textures/gloom2/e6tinylight_s_1500_style_4
 		map textures/gloom2/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6tinylight.blend
@@ -1911,9 +1911,9 @@ textures/gloom2/e6tinylight_s_2000_style_4
 		map textures/gloom2/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/gloom2/e6tinylight.blend
@@ -1937,12 +1937,12 @@ textures/gloom2/es_proto_lightred_64_s_300_style_1
 		blendFunc filter
 		rgbGen identity
 	}
-        {
+	{
 		map textures/gloom2/es_proto_lightred_64
 		blendFunc add
 		rgbGen wave noise 1 1 0 5.37
 	}
-	
+
 }
 
 textures/gloom2/flare_red_01_style_1
@@ -1960,7 +1960,6 @@ textures/gloom2/flare_red_01_style_1
 		rgbGen wave noise 1 1 0 5.37
 	}
 }
-
 
 textures/gloom2/flare_01
 {

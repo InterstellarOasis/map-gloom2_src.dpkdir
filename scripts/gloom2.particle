@@ -4,103 +4,103 @@ gloom2/splash
 	{
 		particle
 		{
-		shader sync textures/gloom2/splash_s
-		displacement 0 0 0 ~10
+			shader sync textures/gloom2/splash_s
+			displacement 0 0 0 ~10
 
-		velocityType		static
-		velocityDir		linear
-	
-		velocityMagnitude	100
-		velocity		0 0 1 ~100
+			velocityType static
+			velocityDir linear
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~75
-		accelerationMagnitude	450
+			velocityMagnitude 100
+			velocity 0 0 1 ~100
 
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~75
+			accelerationMagnitude 450
 
-		radius		0 3 2
-		alpha		200 .25 0
-		rotation	0 ~360 ~360
-		bounce		0.0
+			radius 0 3 2
+			alpha 200 .25 0
+			rotation 0 ~360 ~360
+			bounce 0.0
 
-		lifeTime 300
+			lifeTime 300
 		}
+
 		particle
 		{
-		shader sync textures/gloom2/splash_s
-		displacement 0 0 0 ~8
+			shader sync textures/gloom2/splash_s
+			displacement 0 0 0 ~8
 
-		velocityType		static
-		velocityDir		linear
-	
-		velocityMagnitude	100
-		velocity		0 0 1 ~100
+			velocityType static
+			velocityDir linear
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~25
-		accelerationMagnitude	450
+			velocityMagnitude 100
+			velocity 0 0 1 ~100
 
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 450
 
-		radius		0 3 2
-		alpha		200 .25 0
-		rotation	0 ~360 ~360
-		bounce		0.0
+			radius 0 3 2
+			alpha 200 .25 0
+			rotation 0 ~360 ~360
+			bounce 0.0
 
-		lifeTime 300
+			lifeTime 300
 		}
+
 		particle
 		{
-		shader sync textures/gloom2/splash_s
-		displacement 0 0 0 ~8
+			shader sync textures/gloom2/splash_s
+			displacement 0 0 0 ~8
 
-		velocityType		static
-		velocityDir		linear
-	
-		velocityMagnitude	100
-		velocity		0 0 1 ~100
+			velocityType static
+			velocityDir linear
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~25
-		accelerationMagnitude	450
+			velocityMagnitude 100
+			velocity 0 0 1 ~100
 
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 450
 
-		radius		0 3 2
-		alpha		200 .25 0
-		rotation	0 ~360 ~360
-		bounce		0.0
+			radius 0 3 2
+			alpha 200 .25 0
+			rotation 0 ~360 ~360
+			bounce 0.0
 
-		lifeTime 300
+			lifeTime 300
 		}
+
 		particle
 		{
-		shader sync textures/gloom2/splash_s
-		displacement 0 0 0 ~8
+			shader sync textures/gloom2/splash_s
+			displacement 0 0 0 ~8
 
-		velocityType		static
-		velocityDir		linear
-	
-		velocityMagnitude	100
-		velocity		0 0 1 ~100
+			velocityType static
+			velocityDir linear
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~25
-		accelerationMagnitude	450
+			velocityMagnitude 100
+			velocity 0 0 1 ~100
 
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 450
 
-		radius		0 3 2
-		alpha		200 .25 0
-		rotation	0 ~360 ~360
-		bounce		0.0
+			radius 0 3 2
+			alpha 200 .25 0
+			rotation 0 ~360 ~360
+			bounce 0.0
 
-		lifeTime 300
+			lifeTime 300
 		}
-	count infinite
-	delay 0
-	period 15 - ~0%
+
+		count infinite
+		delay 0
+		period 15 - ~0%
 	}
 }
 
@@ -110,31 +110,31 @@ gloom2/spoutNorth
 	{
 		particle
 		{
-		shader sync textures/gloom2/water_s
-		displacement 0 0 0 0
+			shader sync textures/gloom2/water_s
+			displacement 0 0 0 0
 
-		velocityType		static
-		velocityDir		linear
-	
-		velocityMagnitude	100
-		velocity		0 1 0 ~2
+			velocityType static
+			velocityDir linear
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~25
-		accelerationMagnitude	200
+			velocityMagnitude 100
+			velocity 0 1 0 ~2
 
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 200
 
-		radius		0 4 15
-		alpha		500 .5 0
-		rotation	0 ~180 ~360
-		bounce		0.0
+			radius 0 4 15
+			alpha 500 .5 0
+			rotation 0 ~180 ~360
+			bounce 0.0
 
-		lifeTime 1000
+			lifeTime 1000
 		}
-	count infinite
-	delay 0
-	period 15 - ~0%
+
+		count infinite
+		delay 0
+		period 15 - ~0%
 	}
 }
 
@@ -144,31 +144,31 @@ gloom2/spoutEast
 	{
 		particle
 		{
-		shader sync textures/gloom2/water_s
-		displacement 0 0 0 0
+			shader sync textures/gloom2/water_s
+			displacement 0 0 0 0
 
-		velocityType		static
-		velocityDir		linear
-	
-		velocityMagnitude	100
-		velocity		1 0 0 ~2
+			velocityType static
+			velocityDir linear
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~25
-		accelerationMagnitude	200
+			velocityMagnitude 100
+			velocity 1 0 0 ~2
 
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 200
 
-		radius		0 4 15
-		alpha		500 .5 0
-		rotation	0 ~180 ~360
-		bounce		0.0
+			radius 0 4 15
+			alpha 500 .5 0
+			rotation 0 ~180 ~360
+			bounce 0.0
 
-		lifeTime 1000
+			lifeTime 1000
 		}
-	count infinite
-	delay 0
-	period 15 - ~0%
+
+		count infinite
+		delay 0
+		period 15 - ~0%
 	}
 }
 
@@ -178,31 +178,31 @@ gloom2/spoutWest
 	{
 		particle
 		{
-		shader sync textures/gloom2/water_s
-		displacement 0 0 0 0
+			shader sync textures/gloom2/water_s
+			displacement 0 0 0 0
 
-		velocityType		static
-		velocityDir		linear
-	
-		velocityMagnitude	100
-		velocity		-1 0 0 ~2
+			velocityType static
+			velocityDir linear
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~25
-		accelerationMagnitude	200
+			velocityMagnitude 100
+			velocity -1 0 0 ~2
 
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 200
 
-		radius		0 4 15
-		alpha		500 .5 0
-		rotation	0 ~180 ~360
-		bounce		0.0
+			radius 0 4 15
+			alpha 500 .5 0
+			rotation 0 ~180 ~360
+			bounce 0.0
 
-		lifeTime 1000
+			lifeTime 1000
 		}
-	count infinite
-	delay 0
-	period 15 - ~0%
+
+		count infinite
+		delay 0
+		period 15 - ~0%
 	}
 }
 
@@ -212,29 +212,30 @@ gloom2/radSteamerUp
 	{
 		particle
 		{
-		shader sync textures/gloom2/mist_s
-		displacement 0 0 0 0
+			shader sync textures/gloom2/mist_s
+			displacement 0 0 0 0
 
-		velocityType		static	
-		velocityDir		linear	
-		velocityMagnitude	50
-		velocity		0 0 1 ~15
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 50
+			velocity 0 0 1 ~15
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~5
-		accelerationMagnitude	20
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude 20
 
-		radius		0 20 40
-		alpha		200 .1 0
-		rotation	0 ~90 ~90
-		bounce		0.0
+			radius 0 20 40
+			alpha 200 .1 0
+			rotation 0 ~90 ~90
+			bounce 0.0
 
-		lifeTime 2000
+			lifeTime 2000
 		}
-	count infinite
-	delay 0
-	period 360 - ~0%
+
+		count infinite
+		delay 0
+		period 360 - ~0%
 	}
 }
 
@@ -244,29 +245,30 @@ gloom2/ventSteamerEast
 	{
 		particle
 		{
-		shader sync textures/gloom2/mist_s
-		displacement 0 0 0 0
+			shader sync textures/gloom2/mist_s
+			displacement 0 0 0 0
 
-		velocityType		static	
-		velocityDir		linear	
-		velocityMagnitude	50
-		velocity		1 0 -.5 ~15
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 50
+			velocity 1 0 -.5 ~15
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~5
-		accelerationMagnitude	10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude 10
 
-		radius		0 20 40
-		alpha		200 .1 0
-		rotation	0 ~90 ~90
-		bounce		0.0
+			radius 0 20 40
+			alpha 200 .1 0
+			rotation 0 ~90 ~90
+			bounce 0.0
 
-		lifeTime 2000
+			lifeTime 2000
 		}
-	count infinite
-	delay 0
-	period 180 - ~0%
+
+		count infinite
+		delay 0
+		period 180 - ~0%
 	}
 }
 
@@ -276,29 +278,30 @@ gloom2/ventSteamerEastDown
 	{
 		particle
 		{
-		shader sync textures/gloom2/mist_s
-		displacement 0 0 0 0
+			shader sync textures/gloom2/mist_s
+			displacement 0 0 0 0
 
-		velocityType		static	
-		velocityDir		linear	
-		velocityMagnitude	50
-		velocity		.15 0 -1 ~15
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 50
+			velocity .15 0 -1 ~15
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~5
-		accelerationMagnitude	10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude 10
 
-		radius		0 20 40
-		alpha		200 .1 0
-		rotation	0 ~90 ~90
-		bounce		0.0
+			radius 0 20 40
+			alpha 200 .1 0
+			rotation 0 ~90 ~90
+			bounce 0.0
 
-		lifeTime 2000
+			lifeTime 2000
 		}
-	count infinite
-	delay 0
-	period 180 - ~0%
+
+		count infinite
+		delay 0
+		period 180 - ~0%
 	}
 }
 
@@ -308,106 +311,110 @@ gloom2/sparkerDown
 	{
 		particle
 		{
-		shader sync textures/gloom2/spark_s
+			shader sync textures/gloom2/spark_s
 
-		displacement 0 0 0 ~3
+			displacement 0 0 0 ~3
 
-		velocityType 		static
-		velocityDir 		linear
-		velocity 			0 0 -1 ~150
-		velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 0 0 -1 ~150
+			velocityMagnitude 100
 
-		accelerationType		static
-		accelerationDir		linear
-		acceleration 		0 0 -1 ~25
-		accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-		bounce		0
-		radius		0 1 1
-		alpha			0 .5 .0
-		rotation		0 0 ~360
+			bounce 0
+			radius 0 1 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
-		lifeTime 300
+			lifeTime 300
 
-		overdrawProtection
+			overdrawProtection
 		}
+
 		particle
 		{
-		shader sync textures/gloom2/spark_s
+			shader sync textures/gloom2/spark_s
 
-		displacement 0 0 0 ~5
+			displacement 0 0 0 ~5
 
-		velocityType 		static
-		velocityDir 		linear
-		velocity 			0 0 -1 ~150
-		velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 0 0 -1 ~150
+			velocityMagnitude 100
 
-		accelerationType		static
-		accelerationDir		linear
-		acceleration 		0 0 -1 ~25
-		accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-		bounce		0
-		radius		0 1 1
-		alpha			0 .5 .0
-		rotation		0 0 ~360
+			bounce 0
+			radius 0 1 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
-		lifeTime 600
+			lifeTime 600
 
-		overdrawProtection
+			overdrawProtection
 		}
+
 		particle
 		{
-		shader sync textures/gloom2/spark_s
+			shader sync textures/gloom2/spark_s
 
-		displacement 0 0 0 ~5
+			displacement 0 0 0 ~5
 
-		velocityType 		static
-		velocityDir 		linear
-		velocity 			0 0 -1 ~150
-		velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 0 0 -1 ~150
+			velocityMagnitude 100
 
-		accelerationType		static
-		accelerationDir		linear
-		acceleration 		0 0 -1 ~25
-		accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-		bounce		0
-		radius		0 1 1
-		alpha			0 .5 .0
-		rotation		0 0 ~360
+			bounce 0
+			radius 0 1 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
-		lifeTime 400
+			lifeTime 400
 
-		overdrawProtection
+			overdrawProtection
 		}
+
 		particle
 		{
-		shader sync textures/gloom2/spark_s
+			shader sync textures/gloom2/spark_s
 
-		displacement 0 0 0 ~5
+			displacement 0 0 0 ~5
 
-		velocityType 		static
-		velocityDir 		linear
-		velocity 			0 0 -1 ~150
-		velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 0 0 -1 ~150
+			velocityMagnitude 100
 
-		accelerationType		static
-		accelerationDir		linear
-		acceleration 		0 0 -1 ~25
-		accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-		bounce		0
-		radius		0 1 1
-		alpha			0 .5 .0
-		rotation		0 0 ~360
+			bounce 0
+			radius 0 1 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
-		lifeTime 500
+			lifeTime 500
 
-		overdrawProtection
+			overdrawProtection
 		}
-	count infinite
-	delay 0
-	period 1500 - ~100%
+
+		count infinite
+		delay 0
+		period 1500 - ~100%
 	}
 }

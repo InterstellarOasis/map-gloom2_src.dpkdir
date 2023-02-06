@@ -1,46 +1,45 @@
+-[ general ]-----------------------------------------------------------------
+       title : gloom 2 | beta 2
+    filename : gloom2beta1.bsp
+release date : 06.05.31
 
-   -[ general ]-----------------------------------------------------------------
-          title : gloom 2 | beta 2
-       filename : gloom2beta1.bsp
-   release date : 06.05.31
+-[ credits ]-----------------------------------------------------------------
+construction : nicolas "jex" jansens | elfsoup@gmail.com
+    textures : randy "ydnar" reddig | ydnar@shaderlab.com | www.shaderlab.com
+             : yves "evillair" allaire | evillair.net
+             : the nice chap who released his "ds-old-tex" set to the public
+             : nicolas "jex" jansens | elfsoup@gmail.com
+      cheers : rex and whitenoise for the original gloom2
+             : ydnar for q3map2
 
-   -[ credits ]-----------------------------------------------------------------
-   construction : nicolas "jex" jansens | elfsoup@gmail.com
-       textures : randy "ydnar" reddig | ydnar@shaderlab.com | www.shaderlab.com
-                : yves "evillair" allaire | evillair.net
-                : the nice chap who released his "ds-old-tex" set to the public
-                : nicolas "jex" jansens | elfsoup@gmail.com
-         cheers : rex and whitenoise for the original gloom2
-                : ydnar for q3map2
-               
-   -[ gameplay ]----------------------------------------------------------------
-      game mode : tremulous | tremulous.net
-        players : 6-12
+-[ gameplay ]----------------------------------------------------------------
+   game mode : tremulous | tremulous.net
+     players : 6-12
 
-   -[ construction ]------------------------------------------------------------
-     build time : a month more or less
-       textures : gritty tech based mostly upon the "ds-old-tex" set
-       software : gtkradiant 1.2.13, q3map2
+-[ construction ]------------------------------------------------------------
+  build time : a month more or less
+    textures : gritty tech based mostly upon the "ds-old-tex" set
+    software : gtkradiant 1.2.13, q3map2
 
-   -[ setting ]-----------------------------------------------------------------
-          theme : a dark gritty outpost on a distant planet
+-[ setting ]-----------------------------------------------------------------
+       theme : a dark gritty outpost on a distant planet
 
-   -[ legal ]-------------------------------------------------------------------
-   please refer to the Tremulous license in the file COPYING.
+-[ legal ]-------------------------------------------------------------------
+please refer to the Tremulous license in the file COPYING.
 
-   -[ other notices ]-----------------------------------------------------------
-   textures by yves allaire and randy reddig fall under this license:
-   http://creativecommons.org/licenses/by-sa/2.5/
+-[ other notices ]-----------------------------------------------------------
+textures by yves allaire and randy reddig fall under this license:
+http://creativecommons.org/licenses/by-sa/2.5/
 
-   textures with the "es_" prefix are created by myself (nicolas "jex" jansens)
-   and should be used under this license:
-   http://creativecommons.org/licenses/by-sa/2.5/
+textures with the "es_" prefix are created by myself (nicolas "jex" jansens)
+and should be used under this license:
+http://creativecommons.org/licenses/by-sa/2.5/
 
-   the "ds-old-tex" set was released on a mapping forum for use by community
-   mappers. i have been unable to re-locate the forum post and do not know
-   who is in fact responsible for creating them. i use them in what i believe
-   to be a fair manner as intended by the author. 
+the "ds-old-tex" set was released on a mapping forum for use by community
+mappers. i have been unable to re-locate the forum post and do not know
+who is in fact responsible for creating them. i use them in what i believe
+to be a fair manner as intended by the author. 
 
-   there are a small number of other textures used from various sources some of
-   which i can no longer identify. i apologise for being unable to credit the
-   authors properly.
+there are a small number of other textures used from various sources some of
+which i can no longer identify. i apologise for being unable to credit the
+authors properly.
