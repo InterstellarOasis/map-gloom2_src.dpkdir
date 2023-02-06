@@ -1,5 +1,6 @@
 {
-map		"gloom2beta2"
-longname	"Gloom 2 | Beta 2"
-type		"tremulous"
+	map "gloom2"
+	longname "Gloom 2"
+	author "Jex"
+	type "tremulous"
 }
